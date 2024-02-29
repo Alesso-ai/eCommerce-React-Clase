@@ -1,10 +1,11 @@
-import { API_URL } from "../constants/env"
+import { Outlet } from "react-router-dom"
+import MainHeader from "../organisms/MainHeader"
 
 function App(){
   return (
     <div>
-      <h1>José Luis Ábalos Putero <br />{API_URL}</h1>
-      <p>putero</p>
+      <MainHeader />
+      <Outlet />
     </div>
   )
 }
