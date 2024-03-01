@@ -12,3 +12,5 @@ export const Error404 = () =>{
 //rfac -> arrow function
 
 //rfce -> funcion normal
+
+export default Error404;

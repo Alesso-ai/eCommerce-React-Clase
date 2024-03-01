@@ -1,8 +1,10 @@
-import {API_URL} from '../../constants/env'
+import { API_URL } from "../../constants/env";
 
-export const Home = () => {
+const Home = () => {
   return (
-    <div>Bienvenido a DOC TOPS {API_URL} </div>
-  )
-}
-export default Home 
+    <div>
+      <h1>Bienvenido a DOC TOPS {API_URL}</h1>{" "}
+    </div>
+  );
+};
+export default Home;
