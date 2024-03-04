@@ -11,8 +11,8 @@ const Login = () => {
             password: e.target.password.value
         }
         axios.post(`${API_URL}/public/login`, data)
-        .then(resp => localStorage.setItem('token', resp.token.token))
-        .catch(err => console.log(err))
+        .then(resp => localStorage.setItem('token', resp.data.data.token))
+        .catch(error => console.log(error))
            
        
     }
@@ -20,7 +20,7 @@ const Login = () => {
     <div className="pt-16 mas-w-256 m-auto">
         <form onSubmit={handleSubmit}>
  
-        <input type="email" name="Email" placeholder="email" required/>
+        <input type="email" name="email" placeholder="email" required/>
         <input type="password" name="password" placeholder="Contraseña" required />
         <button type="submit">Ingresar</button>
         </form>
