@@ -3,9 +3,9 @@ import { API_URL } from "../../constants/env";
 import { setToken } from "../../helpers/auth";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
-import logoImage from "./../../assets/imgs/logo.svg";
+
 import { Link } from "react-router-dom";
-import LoginTemplate from "../components/templates/LoginTemplate";
+import LoginTemplate from "../templates/LoginTemplate";
 
 const Login = () => {
   // Utilizar redirecciones de React Router
