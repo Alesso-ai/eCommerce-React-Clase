@@ -20,6 +20,12 @@ import { Link } from "react-router-dom"
           </Link>
 
         </li>
+        <li className="flex items-center">
+          <Link className="menu-item" to="/login">
+          Iniciar Sesion
+          </Link>
+
+        </li>
       </ul>
     </nav>
   )

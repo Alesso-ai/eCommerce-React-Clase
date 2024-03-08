@@ -24,10 +24,10 @@ const LoginTemplate = ({ children, title }) => {
                     {children}
                   </div>
                 </div>
-                <div className="bg-gradient lg:w-6/12 flex items-center lg:rouded-r-lg h-full">
-                  <div>
-                    <span>Mas que un e-commerce</span>
-                    <h4>somos una tienda en linea </h4>
+                <div className="bg-gradient lg:w-6/12 flex items-center lg:rounded-r-lg h-full">
+                  <div className="p-6">
+                    <span className="text-white text-lg font-semibold">Más que un e-commerce</span>
+                    <h4 className="text-white text-xl font-semibold mt-2">somos una tienda en línea</h4>
                   </div>
                 </div>
               </div>
@@ -39,4 +39,4 @@ const LoginTemplate = ({ children, title }) => {
   );
 };
 
-export default LoginTemplate
+export default LoginTemplate;
